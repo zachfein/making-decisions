@@ -22,6 +22,9 @@ reader.question("What would you like to calculate?", function(input){
     if(mathSymbol === "+"){
         let sum = num1 + num2;
         console.log("The answer is ", sum);
+    } else if(mathSymbol === "-"){
+        let sum = num1 - num2;
+        console.log("The answer is ", sum);
     } 
     
 
