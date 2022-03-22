@@ -19,21 +19,23 @@ reader.question("What would you like to calculate?", function(input){
     console.log("num2", num2);
 
 
-    if(mathSymbol === "+"){
+    if(mathSymbol === "+") {
         let sum = num1 + num2;
         console.log("The answer is ", sum);
-    } else if(mathSymbol === "-"){
+    } else if(mathSymbol === "-") {
         let sum = num1 - num2;
         console.log("The answer is ", sum);
-    } else if(mathSymbol === "*"){
+    } else if(mathSymbol === "*") {
         let sum = num1 * num2;
         console.log("The answer is ", sum);
-    } else if(mathSymbol === "/"){
+    } else if(mathSymbol === "/") {
         let sum = num1 / num2;
         console.log("The answer is ", sum);
     } else if(mathSymbol = "root") {
         let sum = Math.sqrt(num1);
         console.log(sum);
+    } else if(mathSymbol = "square") {
+
     }
     
 
