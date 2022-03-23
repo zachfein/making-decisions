@@ -8,7 +8,13 @@
 
 //CODE HERE 
 
-// testing testing testing testingtesting testingtesting testing
+let lovesCode = true;
+
+if(lovesCode = true){
+  console.log("I love to code!");
+} else {
+  console.log("Coding has its challenges.");
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -23,6 +29,8 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+
+
 
 ////////// PROBLEM 3 //////////
 
